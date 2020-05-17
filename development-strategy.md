@@ -1,53 +1,78 @@
-# Development Strategy
+Development Strategy
+semantic-layout
 
-> `name-of-project`
+write a short description of your web page:
 
-write a short description of your project:
-- who would want to use it?
-- why would they want to use it?
+what is it about?
+who would want to read it?
+why would they want to read it?
+Wireframe
+wireframe
 
-## Wireframe
+0. Set-Up
+A User can see my initial repository and live demo
 
-<!-- include a wireframe for your project in this repository, and display it here -->
-<!-- wireframe.cc is a good site for getting started with wireframes -->
-![wireframe]()
+Branch
+Created a new repository generated from this template
+Clone the repository
+Copy-paste the markdown from this file to the empty development-strategy.md file in the new repo
+Add this wireframe into your new repo
+Start your README file
+Push the changes
+turn on GitHub Pages
+1. User Story: title
+As a site visitor, I want to know what the web page is called
 
-## 0. Set-Up
+Branches
+This user story was developed on a brach called 1-title
+It was merged to master when the feature was finished.
+HTML
+A header element with a title describing the web page
+A pleasant footer
+CSS
+Layout styling for the header & footer
+Text styling for the main title
+2. User Story: introduction
+As a site visitor, I want to read an introduction to this web page
 
-__A User can see my initial repository and live demo__
+Branches
+This user story was developed on a brach called 2-introduction
+It was merged to master when the feature was finished.
+HTML
+section element
+some nice text in the section introducing users to this web page
+CSS
+Styling for the new element
 
-### Repo
+3. User Story: main text
+As a site visitor, I want to learn about something cool
 
-- Generate from Template
-- Write initial, basic README
-- Turn on GitHub Pages
+Branches
+This user story was developed on a brach called 3-main-text
+It was merged to master when the feature was finished.
+HTML
+article element
+something cool that everyone needs to know
+CSS
+Styling for the new element
 
-## 1. User Story: __
+4. User Story: references
+As a site visitor, I want to know where I can learn more
 
-__full user story description__
+Branches
+This user story was developed on a brach called 4-references
+It was merged to master when the feature was finished.
+HTML
+aside element
+some links for people to learn more about the cool thing
+CSS
+Styling for the new element
 
-### Repo
+5. Finishing Touches
+As a perfectionist, I want everything perfect :)
 
-what branch(es) did you work on?
-
-### HTML
-
-what did you change in the HTML and why?
-
-### CSS
-
-what did you change in the CSS and why?
-
-## 2. ...
-
-...
-
-...
-
-## Finishing Touches
-
-- Write final, complete README:
- - [makeareadme.com](https://www.makeareadme.com/)
- - [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
- - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
-- Validate code to check for any last mistakes
+Write final, complete README:
+makeareadme.com
+bulldogjob
+meakaakka
+Validate code to check for any last mistakes
