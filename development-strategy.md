@@ -1,78 +1,94 @@
-Development Strategy
-semantic-layout
+# Development Strategy
+
+> `semantic-layout`
 
 write a short description of your web page:
 
-what is it about?
-who would want to read it?
-why would they want to read it?
-Wireframe
-wireframe
+- what is it about?
+- who would want to read it?
+- why would they want to read it?
 
-0. Set-Up
-A User can see my initial repository and live demo
+## Wireframe
 
-Branch
-Created a new repository generated from this template
-Clone the repository
-Copy-paste the markdown from this file to the empty development-strategy.md file in the new repo
-Add this wireframe into your new repo
-Start your README file
-Push the changes
-turn on GitHub Pages
-1. User Story: title
-As a site visitor, I want to know what the web page is called
+![wireframe](./wireframe.gif)
 
-Branches
-This user story was developed on a brach called 1-title
-It was merged to master when the feature was finished.
-HTML
-A header element with a title describing the web page
-A pleasant footer
-CSS
-Layout styling for the header & footer
-Text styling for the main title
-2. User Story: introduction
-As a site visitor, I want to read an introduction to this web page
+## 0. Set-Up
 
-Branches
-This user story was developed on a brach called 2-introduction
-It was merged to master when the feature was finished.
-HTML
-section element
-some nice text in the section introducing users to this web page
-CSS
+__A User can see my initial repository and live demo__
+
+### Branch
+
+1. Created a new repository [generated](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/) from [this template](https://github.com/hackyourfuturebelgium/w3-validation-template)
+1. Clone the repository
+1. Copy-paste the markdown from this file to the empty `development-strategy.md` file in the new repo
+1. Add [this wireframe](./wireframe.gif) into your new repo
+1. Start your README file
+1. Push the changes
+1. turn on GitHub Pages
+
+---
+
+## 1. User Story: title
+
+__As a site visitor, I want to know what the web page is called__
+
+### Branches
+
+1. This user story was developed on a brach called `header-footer`
+1. It was merged to `master` when the feature was finished.
+
+### HTML
+
+- A header element with a title describing the web page
+- A pleasant footer
+
+---
+
+
+## 2. User Story: main text
+
+__As a site visitor, I want to learn about something cool__
+
+### Branches
+
+1. This user story was developed on a brach called `main-section`
+1. It was merged to `master` when the feature was finished.
+
+### HTML
+
+- article element
+- something cool that everyone needs to know
+
+### CSS
+
+Styling for the new element and header-footer
+
+---
+
+## 3. User Story: references
+
+__As a site visitor, I want to know where I can learn more__
+
+### Branches
+
+1. This user story was developed on a brach called `aside`
+1. It was merged to `master` when the feature was finished.
+
+### HTML
+
+- aside element
+- some links for people to learn more about the cool thing
+
+### CSS
+
 Styling for the new element
 
-3. User Story: main text
-As a site visitor, I want to learn about something cool
+---
 
-Branches
-This user story was developed on a brach called 3-main-text
-It was merged to master when the feature was finished.
-HTML
-article element
-something cool that everyone needs to know
-CSS
-Styling for the new element
+## 4. Finishing Touches
 
-4. User Story: references
-As a site visitor, I want to know where I can learn more
+__As a perfectionist, I want everything perfect :)__
 
-Branches
-This user story was developed on a brach called 4-references
-It was merged to master when the feature was finished.
-HTML
-aside element
-some links for people to learn more about the cool thing
-CSS
-Styling for the new element
+### HTML & CSS
 
-5. Finishing Touches
-As a perfectionist, I want everything perfect :)
-
-Write final, complete README:
-makeareadme.com
-bulldogjob
-meakaakka
-Validate code to check for any last mistakes
+Added a finishing touch 
