@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <!-- main section CSS -->
+  <!-- aside CSS -->
   <meta charset="utf-8">
   <title>Incremental Example</title>
   <style>
@@ -12,6 +12,19 @@
 
     p {
       font-family: fantasy;
+    }
+
+    aside {
+      width: 40%;
+      padding-left: .5rem;
+      margin-left: .5rem;
+      float: right;
+      box-shadow: inset 5px 0 5px -5px #29627e;
+      font-style: italic;
+    }
+
+    .aside-text {
+      font-family: monospace;
     }
 
     footer {
@@ -30,6 +43,13 @@
   <header>
     <h1>How do Trees Work?</h1>
   </header>
+  <aside>
+    <p class="aside-text">
+      To learn <strike>everything</strike> a lot about trees,
+      <a href="https://en.wikipedia.org/wiki/Tree" target="_blank">
+        visit this link</a>
+    </p>
+  </aside>
   <section id="main section">
     <p>
       Well, this has really been a tough question to answer. My colleagues and I sat down last week and we spent at
